@@ -61,9 +61,9 @@ XWRT)
 ;;
 VIKINGYFY)
   variable REPO_URL="https://github.com/VIKINGYFY/immortalwrt"
-  variable SOURCE="VIKINGYFY"
-  variable SOURCE_OWNER="VIKINGYFY"
-  variable DISTRIB_SOURCECODE="vikiegyfy"
+  variable SOURCE="Immortalwrt"
+  variable SOURCE_OWNER="ctcgfw"
+  variable DISTRIB_SOURCECODE="immortalwrt"
   variable LUCI_EDITION="$(echo "${REPO_BRANCH}" |sed 's/openwrt-//g')"
   variable GENE_PATH="${HOME_PATH}/package/base-files/files/bin/config_generate"
 ;;
